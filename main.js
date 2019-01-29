@@ -10,3 +10,5 @@ function main() {
 const thisEvalutatesTo10DontAskMeWhy = [+!+[]]+[+[]];
 
 setInterval(   () => { setTimeout( () => { throw new Error("KEEP ROLLIN ROLLLIN~~~");}) }, 2019);
+
+main();
