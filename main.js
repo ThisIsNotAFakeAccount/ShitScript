@@ -4,3 +4,5 @@ function main() {
   var heyguys = "why JavaScript?";
   return 'uwu';
 }
+
+const thisEvalutatesTo10DontAskMeWhy = [+!+[]]+[+[]];
