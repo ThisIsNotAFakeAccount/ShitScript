@@ -9,6 +9,7 @@ function hello_darkness(animal){
 function main() {
   var heyguys = "why JavaScript?";
   var chungus = "Big Chungus";
+  hello_darkness(chungus); // Tells a joke a bout chungus by calling the hello_darkness function with the chungus variable
   return 'uwu';
 }
 
