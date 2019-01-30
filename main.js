@@ -14,6 +14,7 @@ function main() {
 }
 
 function tell_joke(theme) {
+  var start = "knock knock";
   return this;
 }
 
