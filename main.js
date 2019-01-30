@@ -1,3 +1,5 @@
+console.log = (...args) => { args.unshift('😠'); console.error(args); };
+
 function hello_darkness(animal){
   console.log("my old " + animal);
 }
