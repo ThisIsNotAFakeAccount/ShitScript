@@ -9,6 +9,7 @@ function hello_darkness(animal){
 function main() {
   var heyguys = "why JavaScript?";
   var chungus = "Big Chungus";
+  hello_darness(chungus)
   return 'uwu';
 }
 
