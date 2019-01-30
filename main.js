@@ -1,3 +1,4 @@
+try {  // please help complete this block :')
 throw "wew";
 
 console.log = (...args) => { args.unshift('😠'); console.error(...args); };
