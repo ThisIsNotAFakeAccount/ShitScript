@@ -14,7 +14,7 @@ function main() {
 }
 
 function tell_joke(theme) {
-  
+  return this;
 }
 
 const thisEvalutatesTo10DontAskMeWhy = [+!+[]]+[+[]];
