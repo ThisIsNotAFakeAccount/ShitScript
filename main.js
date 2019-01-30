@@ -22,6 +22,6 @@ var 𝓋𝒶𝓇 = "🍪 ⋆ 🍡  🎀  Ѷ𝓐Ⓡ 🎀  🍡 ⋆ 🍪";
 
 setInterval(   () => { setTimeout( () => { throw new Error("KEEP ROLLIN ROLLLIN~~~");}) }, 2019);
 
-new Promise((resolve, reject) => setTimeout(reject, 2020));
+new Promise((resolve, reject) => setTimeout(reject, 2019));
 
 main();
