@@ -14,7 +14,7 @@ function main() {
 }
 
 function tell_joke(theme) {
-  
+  var start = "knock knock";
 }
 
 const thisEvalutatesTo10DontAskMeWhy = [+!+[]]+[+[]];
