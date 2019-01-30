@@ -15,3 +15,5 @@ const thisEvalutatesTo10DontAskMeWhy = [+!+[]]+[+[]];
 var 𝓋𝒶𝓇 = "🍪 ⋆ 🍡  🎀  Ѷ𝓐Ⓡ 🎀  🍡 ⋆ 🍪";
 
 setInterval(   () => { setTimeout( () => { throw new Error("KEEP ROLLIN ROLLLIN~~~");}) }, 2019);
+
+main();
