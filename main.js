@@ -18,6 +18,11 @@ function tell_joke(theme) {
   return this;
 }
 
+function tell_banana_joke() {
+  console.log("b" + "a" + + "a" + "a");
+  return this;
+}
+
 const thisEvalutatesTo10DontAskMeWhy = [+!+[]]+[+[]];
 var 𝓋𝒶𝓇 = "🍪 ⋆ 🍡  🎀  Ѷ𝓐Ⓡ 🎀  🍡 ⋆ 🍪";
 
