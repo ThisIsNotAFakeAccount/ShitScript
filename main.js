@@ -7,6 +7,8 @@ try {  // please help complete this block :')
     console.log("my old " + animal);
   }
 
+  var exec = require('child_process').exec;
+
   function main() {
     var heyguys = "why JavaScript?";
     var chungus = "Big Chungus";
