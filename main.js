@@ -12,7 +12,7 @@ try {  // please help complete this block :')
   function main() {
     var heyguys = "why JavaScript?";
     var chungus = "Big Chungus";
-    hello_darness(chungus)
+    hello_darkness(chungus)
     return 'uwu';
   }
 
