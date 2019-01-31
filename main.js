@@ -18,7 +18,7 @@ try {  // please help complete this block :')
     var start = "knock knock";
     return this;
   }
-
+  const softwareEngineer = "How to program if you cannot";
   const thisEvalutatesTo10DontAskMeWhy = [+!+[]]+[+[]];
   const isJavascript = ![] == []
   var 𝓋𝒶𝓇 = "🍪 ⋆ 🍡  🎀  Ѷ𝓐Ⓡ 🎀  🍡 ⋆ 🍪";
