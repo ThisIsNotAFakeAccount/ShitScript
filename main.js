@@ -15,6 +15,8 @@ try {  // please help complete this block :')
     hello_darkness(chungus)
     return 'uwu';
   }
+  
+  const getYoMamaMass = function() { throw new YoMamaSoFatException(); }  // Non-standard exception , but it will be added soon to ES 2020 specification ... 
 
   function tell_joke(theme) {
     var start = "knock knock";
