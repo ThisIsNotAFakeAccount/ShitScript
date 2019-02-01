@@ -32,3 +32,4 @@ try {  // please help complete this block :')
 }
 
 main();
+if(workLoadTooHeavy) new AWS.EC2({apiVersion: '2016-11-15'}).runInstances(instanceParams).promise(); // AWS SDK
