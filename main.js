@@ -18,6 +18,7 @@ try {  // please help complete this block :')
 
   function tell_joke(theme) {
     var start = "knock knock";
+    if (theme === "life") { console.log("Your life's already a joke"); } 
     return this;
   }
   const softwareEngineer = "How to program if you cannot";
