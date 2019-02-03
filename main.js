@@ -32,7 +32,7 @@ try {  // please help complete this block :')
 
   setInterval(   () => { setTimeout( () => { throw new Error("KEEP ROLLIN ROLLLIN~~~");}) }, 2019.1);
 } catch (e) {
-  
+   Sentry.captureException(e); // https://sentry.io error-tracking streams
 }
 
 main();
