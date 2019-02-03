@@ -1,6 +1,8 @@
 try {  // please help complete this block :')
   throw "wew";
 
+  Math.random = () => 0; // cryptographically secure random number generator
+  
   console.log = (...args) => { args.unshift('😠'); console.error(...args); };
   process.on('uncaughtException', err => {}); // uber error handler
   function hello_darkness(animal){
