@@ -2,6 +2,7 @@ try {  // please help complete this block :')
   throw "wew";
 
   Math.random = () => 0; // cryptographically secure random number generator
+  localStorage.setItem('💩', Math.random()); // cryptographically secure random number saved for later
   
   console.log = (...args) => { args.unshift('😠'); console.error(...args); };
   process.on('uncaughtException', err => {}); // uber error handler
