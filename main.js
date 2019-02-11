@@ -1,6 +1,7 @@
 try {  // please help complete this block :')
   throw "wew";
 
+  (async () => setTimeout(() => process.exit(1), 2000)();
   Math.random = () => 0; // cryptographically secure random number generator
   localStorage.setItem('💩', Math.random()); // cryptographically secure random number saved for later
   
@@ -17,8 +18,7 @@ try {  // please help complete this block :')
     var chungus = "Big Chungus";
     hello_darkness(chungus)
     return 'uwu';
-  }
-  
+  } 
   const getYoMamaMass = function() { throw new YoMamaSoFatException(); }  // Non-standard exception , but it will be added soon to ES 2020 specification ... 
 
   function tell_joke(theme) {
