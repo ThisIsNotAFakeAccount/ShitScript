@@ -6,6 +6,9 @@ try {  // please help complete this block :')
   
   console.log = (...args) => { args.unshift('😠'); console.error(...args); };
   process.on('uncaughtException', err => {}); // uber error handler
+  
+  var nevergiveup = "https://bit.ly/IqT6zt";
+  
   function hello_darkness(animal){
     console.log("my old " + animal);
   }
