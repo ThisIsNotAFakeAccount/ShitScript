@@ -19,8 +19,10 @@ try {  // please help complete this block :')
     return 'uwu';
   }
   
-  const getYoMamaMass = function() { throw new YoMamaSoFatException(); }  // Non-standard exception , but it will be added soon to ES 2020 specification ... 
+  const getYoMamaMass = function() { throw new YoMamaSoFatException(); };  // Non-standard exception , but it will be added soon to ES 2020 specification ... 
 
+  const theseTwoSongsShouldntWorkTogetherButTheyDoesWorkFine = function() { window.location.href="https://www.youtube.com/watch?v=bSFDRhFReRk"; };
+  
   function tell_joke(theme) {
     var start = "knock knock";
     if (theme === "life") { console.log("Your life's already a joke"); } 
